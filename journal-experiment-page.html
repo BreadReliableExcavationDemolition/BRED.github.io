@@ -24,7 +24,7 @@
 
     <table class="TableOne">
           <tr>
-            <pre><th>     Franz The Great                               20/03/1970</th></pre>
+            <th><pre>     Franz The Great                               20/03/1970</pre></th>
           </tr>
         <!-- tr means table row, td means table data, and th means table header-->
         <tr>
@@ -77,7 +77,7 @@
 
 <style>
 
- table, th, td {
+ table, td {
     border: 3px;
     border-style:outset;
     border-radius: 3px;
@@ -87,8 +87,22 @@
     font-family: "Syne Tactile", system-ui;
     font-weight: 400;
     font-style: normal;
+ }
+
+th {
+    border-bottom: 3px
+    border-style: solid;
+    border-width: 3px;
+    text-align: left;
+    font-family: "Syne Tactile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
+
+
+    
 .TableOne {
     width: 800px;
     height: 600px;
