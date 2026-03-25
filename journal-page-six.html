@@ -19,52 +19,76 @@
 
     
     <div id="desk">
+
+    <table class="TableOne">
+          <tr>
+            <th><pre>     Franz The Great                               23/03/1970</pre></th>
+          </tr>
         
-        <h2 class="franz-handwriting">The quick brown fox jumps over the lazy dog.</h2>
+        <!-- tr means table row, td means table data, and th means table header-->
+        <tr>
+            <td><pre><h3>
+     My new science partner has turned
+     out to be useless and cruel... not
+     cruel like how Shaun has been...
+     more cruel than Shaun...
+     although Shaun has told me to stop 
+     saying his name recently...
+     and we both had a "couple's therapy"
+     session with Samson Colbern...
+     although we are not a couple, and 
+     never have been...
+     I am starting to suspect that Shaun
+     hates me, more than I could ever be
+     upset with him...
 
-            <div class="page">
-            
-                <pre><h3>     Franz The Great                               20/03/1970</h3></pre>
-                
-                <hr>
-                
-<pre><h3>
-     This is a story.... about a wonderfully magnificient 
-     and intelligent duo!! Divided by a 
-     misunderstanding, and a betrayal.... 
-     a betrayal of the heart....
+     I have sadly posted applications
+     for science assistants but I do
+     not believe I will truly accept
+     another science colleague at all.
+     No one could truly replace Shaun...
+            </h3></pre></td>
+            <td><pre><h3>
+     No matter!!! I will keep exploring
+     this new world of science I have
+     come across on my vacation!!
+     I have been staying up so late in 
+     these recent days, testing out
+     different ingredients and seeing
+     what they do to my bread creatures!!
+     (My <em>new</em> bread creatures...
+     because a certain soldier I had once
+     trusted.. has released all of my older
+     creatures....)
 
-    I, Franz the Fantastic, met this 
-    short, little, pessimistic, and quite boring 
-    man that runs a pharmacy!! I had only 
-    originially spoken to him because my
-    scout, Johnathan, or whatever his 
-    name is, asked me to get sedatives for
-    him!! (What idiot can't get his own
-    drugs anyways???)
-
-    After I reluctantly retrieved the godforsaken
-    sedatives for my pathetic scout, I approached 
-    the pharmacist once again and learned his name!!
-    It is Shaun... 
-    What a boring little name if I am honest...
-    ANYWAYS!!!!!
-<!--
-    I had not only asked his name but I also
-    asked what his relationship was to medics!!
-    I learned that he is not allowed to ask any
-    medics their reasonings for medical supplies...
-    How delightlfully useful that tidbit of 
-    information was!!
--->
-
-</h3></pre>
-                </div>    
+     I have created cake lobsters with a 
+     real shell by stuffing them with a 
+     mixture I like to call....
+     the "True Life Serum"!!!!!
+     Honestly, it does not give them true
+     life.... but it is a fantastic conductor 
+     of electricity!!! So it can truly grow
+     this time!! and you know... heal itself..
+     Maybe....
+     I will continue to experiment with this!!
+            </h3></pre></td>
+        </tr>
+  
             </div>
+<!-- NAVIGATION -->
+    <a href="journal-page-five.html">
+    <img title="Previous" src="Apple.png" class="wee" width="100px" height="100px">
+</a>
 
 <a href="index.html">
-    <img src="Apple.png" class="wee" width="100px" height="100px">
+    <img title="Back to Beginning" src="Apple.png" class="wee" width="100px" height="100px">
 </a>
+    
+<a href="journal-page-seven.html">
+    <img title="Next" src="Apple.png" class="wee" width="100px" height="100px">
+</a>
+
+
     
 </body>
 
@@ -73,6 +97,53 @@
 <!-- CSS AREA -->
 
 <style>
+
+pre {
+    font-family: "Syne Tactile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+    
+ table{
+    border: 3px;
+    border-style:outset;
+    border-radius: 3px;
+    border-width: 3px;
+    border-color: #DEB099;
+    text-align: center;
+    font-family: "Syne Tactile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+ }
+
+th, td {
+/*
+    border-bottom: 3px
+    border-style: solid;
+    border-width: 3px;
+*/
+    text-align: left;
+    font-family: "Syne Tactile", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:#734D2A;
+
+}
+
+
+
+    
+.TableOne {
+    width: 800px;
+    height: 500px;
+    background: url("paper-background-page-break.jpg");
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
     hr {
         color: #734D2A;
     }
@@ -121,7 +192,7 @@
         text-align: center;
         width: 850px;
         height: 800px;
-        overflow: auto;
+        overflow: hidden;
     }
 
     a {
@@ -136,8 +207,13 @@
         font-size: 25px;
 
     }
-
-
+/*
+    .wee {
+        position:absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+*/
     .wee:hover {
         transform: rotate(-12deg);
     }
